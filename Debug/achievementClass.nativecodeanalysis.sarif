@@ -1,0 +1,206 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x008FD1C0 -il C:\\Users\\Yo_Dan\\AppData\\Local\\Temp\\_CL_03724944ast -typedil -f achievementClass.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930133 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoDebug\\achievementClass.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\Yo_Dan\\Documents\\CPP\\RiseOfTheFrogs\\RiseOfTheFrogs -analyze:rulesetdirectory ;D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I D:\\Yo_Dan\\Documents\\CPP\\RiseOfTheFrogs\\RiseOfTheFrogs\\Include\\um -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -external:I D:\\Yo_Dan\\Documents\\CPP\\RiseOfTheFrogs\\RiseOfTheFrogs\\Include\\um -I D:\\Yo_Dan\\Documents\\CPP\\RiseOfTheFrogs\\RiseOfTheFrogs\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Yo_Dan/Documents/CPP/RiseOfTheFrogs/RiseOfTheFrogs/RiseOfTheFrogs.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "38eab07b5b6401fda536dd3fadd3b205"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/constants.h"
+          },
+          "hashes": {
+            "md5": "1583372fd902a157b9790910f5f8ae65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/corefunctions.h"
+          },
+          "hashes": {
+            "md5": "20ce1c10e9f4badfedf399b1c3800aca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/abilityclass.h"
+          },
+          "hashes": {
+            "md5": "70c609e3abda3dc97029a9b5efefcf43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/unitclass.h"
+          },
+          "hashes": {
+            "md5": "9b3782f00c0d6f351595660adb28e626"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/itemclass.h"
+          },
+          "hashes": {
+            "md5": "d3b6f2f91f4b534172879b08a27ef2db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/achievementclass.h"
+          },
+          "hashes": {
+            "md5": "df921b72fb801c0e1645a28461840420"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/battleclass.h"
+          },
+          "hashes": {
+            "md5": "f89e5e21adc9ad55eb3549bba141901d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/commandclass.h"
+          },
+          "hashes": {
+            "md5": "151ce333002ffb834f445c3a9b1eb53c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/environmentclass.h"
+          },
+          "hashes": {
+            "md5": "8e28977adb531b0b603639e3a32e3007"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/questclass.h"
+          },
+          "hashes": {
+            "md5": "edde215d3b5b91e77c05e712fd717f98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Yo_Dan/Documents/CPP/RiseOfTheFrogs/RiseOfTheFrogs/unitClass.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "dd2a62a844f3e763255a7c31681c1ac6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/questclass.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "004021421ad20239d6c21b97d8032bad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/itemclass.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "44487534ec9d73fa96c1a3f663be3d51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/commandclass.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "c77df38f38ae8d172d5470eecf1d7b52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/environmentclass.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6ff881aacd5d1dee9bfdaf55ab6af305"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/corefunctions.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "0f2d9866434920e18655a30f1c1f382e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/battleclass.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "18bf6b8c5695f8ddc54c11ac1ed78c22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/yo_dan/documents/cpp/riseofthefrogs/riseofthefrogs/achievementclass.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "2e4e96708a95d7b6914139d75304a81d"
+          }
+        }
+      ]
+    }
+  ]
+}

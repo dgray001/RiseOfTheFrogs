@@ -1,0 +1,9 @@
+﻿  RiseOfTheFrogs.cpp
+  coreFunctions.cpp
+  game.cpp
+  Generating code
+  6 of 3039 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    75 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  RiseOfTheFrogs.vcxproj -> D:\Yo_Dan\Documents\CPP\RiseOfTheFrogs\RiseOfTheFrogs\Release\RiseOfTheFrogs.exe
